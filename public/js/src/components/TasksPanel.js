@@ -1,4 +1,4 @@
-function TasksPanel(){
+function TasksPanel(props){
     return(
          <div className="panel panel-default">
                               <div className="panel-heading">
@@ -12,7 +12,7 @@ function TasksPanel(){
                                           <i className="fa fa-fw fa-calendar"></i> Calendar updated
                                       </a>
                                       {/*   </TaskItem>    */}
-                                      
+                                      <div></div>
                                   </div>
                                   <div className="text-right">
                                       <a href="#">View All Activity <i className="fa fa-arrow-circle-right"></i></a>

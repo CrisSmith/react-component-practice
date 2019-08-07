@@ -1,4 +1,4 @@
-function Tickets() {
+function Tickets(props) {
     return(
         <div className="col-lg-3 col-md-6">
                           <div className="panel panel-red">
@@ -9,7 +9,7 @@ function Tickets() {
                                       </div>
                                       <div className="col-xs-9 text-right">
                                           <div className="huge">13</div>
-                                          <div>Support Tickets!</div>
+                                          <div>{props.tickets}</div>
                                       </div>
                                   </div>
                               </div>
